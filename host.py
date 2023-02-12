@@ -7,8 +7,8 @@ import socket
 import time
 from machine import ADC
 
-WLAN_SSID = ''
-WLAN_PW = ''
+WLAN_SSID = 'THEINTERNET'
+WLAN_PW = 'Ilovewlan2!'
 
 # Connect to network
 wlan = network.WLAN(network.STA_IF)

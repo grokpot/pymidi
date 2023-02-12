@@ -2,8 +2,8 @@ import mido
 import socket
 import time
 
-HOST = 'x.x.x.x'
-PORT = 12345    # Needs to match host
+HOST = '10.1.1.160'
+PORT = 12345 # needs to match host
 
 def runit():
     with mido.open_output('IAC Driver Bus 1') as port:
